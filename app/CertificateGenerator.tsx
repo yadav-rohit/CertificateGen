@@ -138,11 +138,11 @@ const CertificateGenerator: React.FC = () => {
         setBackground(e.target.files[0]);
       }};
 
-    const handleNameChange = (event) => {
+    const handleNameChange = (event:any) => {
       setName(event.target.value);
     };
   
-    const handleAchievementChange = (event) => {
+    const handleAchievementChange = (event:any) => {
       setAchievement(event.target.value);
     };
   
