@@ -177,7 +177,7 @@ const CertificateGenerator: React.FC = () => {
   };
 
   return (
-    <section className="Certificate_gen">
+    <section className="Certificate_gen ">
       <aside className="Certificate_gen_setup">
         <h1
           style={{

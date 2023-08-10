@@ -9,12 +9,29 @@ height: 100%;
 padding: 10px;
 border: 2px solid #6d67674b;
 box-shadow: 0px 0px 8px 0.5px #2f2f2fbd;
+display: flex;
+flex-direction: column;
 }
+@media screen and (min-width: 600px) {
+    .Certificate_gen{
+        flex-direction: row;
+        width: 90%;
+    }
+    .Certificate_gen_setup{
+        width: 30%;
+        height: 100%;
+    }
+    .Certificate_gen_preview{
+        width: 70%;
+        height: 50%;
+    }
+}
+    
 
 .Certificate_gen_setup{
     height: 100%;
     background-color: rgba(240, 248, 255, 0.367);
-    width: 30%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +43,7 @@ box-shadow: 0px 0px 8px 0.5px #2f2f2fbd;
 .Certificate_gen_preview{
     height: 100%;
     background-color: rgba(240, 248, 255, 0.21);
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
