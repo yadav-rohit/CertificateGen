@@ -27,6 +27,7 @@
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
-    "@types/webfontloader": "^1.6.35"
+    "@types/webfontloader": "^1.6.35",
+    "file-loader": "^6.2.0"
   }
 }
